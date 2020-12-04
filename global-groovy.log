@@ -1,0 +1,914 @@
+2020-12-04 11:37:41,511 INFO  [log] SKU00001
+2020-12-04 11:37:41,515 INFO  [log] com.eviware.soapui.support.XmlHolder@118111
+2020-12-04 11:37:41,525 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 11:37:43,805 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341982</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 05:43:52</createdAt>
+            <updatedAt>2020-12-04 06:07:39</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:37:43,855 INFO  [log] SKU00001
+2020-12-04 11:37:44,959 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:37:50,983 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341993</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 06:07:46</createdAt>
+            <updatedAt>2020-12-04 06:07:46</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:37:51,017 INFO  [log] SKU00001
+2020-12-04 11:37:52,459 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:37:57,251 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:37:57,268 INFO  [log] 
+2020-12-04 11:38:02,206 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00011</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 11:38:02,214 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 11:38:02,217 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 11:38:03,241 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341994</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 06:07:53</createdAt>
+            <updatedAt>2020-12-04 06:07:53</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 11:38:03,266 INFO  [log] SKU00001
+2020-12-04 12:28:55,988 INFO  [log] SKU00001
+2020-12-04 12:28:55,990 INFO  [log] com.eviware.soapui.support.XmlHolder@11d13a6d
+2020-12-04 12:28:55,999 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 12:28:57,121 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341994</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 06:07:53</createdAt>
+            <updatedAt>2020-12-04 06:58:53</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:28:58,366 INFO  [log] SKU00001
+2020-12-04 12:29:00,532 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:29:07,997 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341996</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 06:59:05</createdAt>
+            <updatedAt>2020-12-04 06:59:05</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:29:08,168 INFO  [log] SKU00001
+2020-12-04 12:29:09,335 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:29:14,835 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">The product that was requested doesn't exist. Verify the product and try again.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:29:14,849 INFO  [log] 
+2020-12-04 12:29:20,353 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00011</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 12:29:20,361 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 12:29:20,364 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 12:29:21,336 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12341997</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 06:59:12</createdAt>
+            <updatedAt>2020-12-04 06:59:12</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 12:29:21,358 INFO  [log] SKU00001
+2020-12-04 15:04:29,239 INFO  [log] SKU00001
+2020-12-04 15:04:29,242 INFO  [log] com.eviware.soapui.support.XmlHolder@60fd9490
+2020-12-04 15:04:29,249 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 15:04:39,397 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:04:48,963 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:05:00,263 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342025</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:34:50</createdAt>
+            <updatedAt>2020-12-04 09:34:50</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:05:00,335 INFO  [log] SKU00001
+2020-12-04 15:05:11,448 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342025</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:34:50</createdAt>
+            <updatedAt>2020-12-04 09:35:09</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:05:11,819 INFO  [log] SKU00001
+2020-12-04 15:05:11,872 INFO  [log] SKU00001
+2020-12-04 15:05:14,124 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:20:25,442 INFO  [log] SKU00001
+2020-12-04 15:20:25,446 INFO  [log] com.eviware.soapui.support.XmlHolder@517c11a
+2020-12-04 15:20:25,452 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 15:21:00,799 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342031</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:50:23</createdAt>
+            <updatedAt>2020-12-04 09:50:57</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:21:00,851 INFO  [log] SKU00001
+2020-12-04 15:21:03,527 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:21:11,416 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342032</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:51:05</createdAt>
+            <updatedAt>2020-12-04 09:51:05</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:21:11,607 INFO  [log] SKU00001
+2020-12-04 15:21:11,669 INFO  [log] SKU00001
+2020-12-04 15:21:12,855 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:17,590 INFO  [log] SKU00001
+2020-12-04 15:23:17,593 INFO  [log] com.eviware.soapui.support.XmlHolder@12ed564b
+2020-12-04 15:23:17,602 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:catalogProductRepositoryV1GetRequest>
+         <sku>SKU00001</sku>
+      </def:catalogProductRepositoryV1GetRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-12-04 15:23:19,466 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:28,356 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:33,025 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342037</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:53:30</createdAt>
+            <updatedAt>2020-12-04 09:53:30</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:33,123 INFO  [log] SKU00001
+2020-12-04 15:23:35,355 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:39,587 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342038</id>
+            <sku>SKU00001</sku>
+            <name>MacBook Air Pro</name>
+            <attributeSetId>4</attributeSetId>
+            <price>100</price>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>simple</typeId>
+            <createdAt>2020-12-04 09:53:36</createdAt>
+            <updatedAt>2020-12-04 09:53:36</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>msrp_display_actual_price_type</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>macbook-air-pro</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>tax_class_id</attributeCode>
+                  <value>2</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-12-04 15:23:39,708 INFO  [log] SKU00001
+2020-12-04 15:23:39,760 INFO  [log] SKU00001
+2020-12-04 15:23:41,966 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1DeleteByIdResponse>
+         <result>true</result>
+      </ns1:catalogProductRepositoryV1DeleteByIdResponse>
+   </env:Body>
+</env:Envelope>
